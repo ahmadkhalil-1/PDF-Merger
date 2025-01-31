@@ -1,0 +1,20 @@
+{
+  "name": "pdf_merger",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ahmad",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "pdf-merger-js": "^5.1.2"
+  }
+}
